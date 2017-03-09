@@ -2,6 +2,10 @@ body,div,dl,dt,ul,li,h1,h2,h3,h4,h5,h6,input,form,a,p,textarea{margin:0;padding:
 ol,ul,li{list-style:none;}
 a{text-decoration:none}
 img{border:none;display:block;}
+button {
+  border: none;
+  outline: none;
+}
 
 .App {
   width: 100vw;
@@ -76,6 +80,10 @@ img{border:none;display:block;}
   flex-direction: column;
   position: relative;
   top: 40vh;
+}
+
+.Menu .placeholder {
+  height: 4rem;
 }
 
 .MenuHead {
@@ -187,4 +195,57 @@ img{border:none;display:block;}
 
 .Selectables li img.selected {
   border: 2px solid #df641e;
+}
+
+.Footer {
+  background: white;
+  position: fixed;
+  z-index: 9999;
+  bottom: 0;
+  width: 100vw;
+  height: 4rem;
+  display: flex;
+}
+
+.Footer > section {
+  width: 17vw;
+  padding-top: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.56);
+  font-size: 0.8rem;
+}
+
+.Footer .Footer-line {
+  align-self: flex-start;
+  height: 2rem;
+  width: 2.5px;
+  background: grey;
+}
+
+.Footer img {
+  height: 1.6rem;
+}
+
+.Footer button {
+  flex-grow: 1;
+  flex-shrink: 1;
+  width: 30vw;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.Footer button:active {
+  color: grey;
+}
+
+.Footer button:nth-child(4) {
+  background: #ff9402;
+}
+
+.Footer button:nth-child(5) {
+  background: #dd2727;
+
 }

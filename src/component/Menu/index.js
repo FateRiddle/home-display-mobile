@@ -6,6 +6,7 @@ const Menu = () =>
   <div className='Menu'>
     <MenuHead />
     <MenuList />
+    <div className='placeholder' />
   </div>
 
 export default Menu
