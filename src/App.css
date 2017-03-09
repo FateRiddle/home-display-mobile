@@ -203,7 +203,7 @@ button {
   z-index: 9999;
   bottom: 0;
   width: 100vw;
-  height: 4rem;
+  height: 9vh;
   display: flex;
 }
 
@@ -220,7 +220,7 @@ button {
 
 .Footer .Footer-line {
   align-self: flex-start;
-  height: 2rem;
+  height: 4.5vh;
   width: 2.5px;
   background: grey;
 }
